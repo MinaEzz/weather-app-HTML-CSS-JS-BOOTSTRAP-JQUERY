@@ -108,5 +108,6 @@ $(document).ready(function () {
   //ARROW BACK FUNCTION:
   $(arrowBack).click(() => {
     $(wrapper).removeClass("active");
+    inputField.value = "";
   });
 });
